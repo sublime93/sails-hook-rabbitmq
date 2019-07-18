@@ -13,7 +13,7 @@
     "dependencies",
     "rabbit mq"
   ],
-  "author": "Jordan Vohwinkel <jvohwinkel@ntech.io>",
+  "author": "N-Tech Consulting <itsupport@ntech.io>",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "eslint": "3.19.0"
+  },
+  "dependencies": {
+    "rabbot": "^2.1.0"
   }
 }
