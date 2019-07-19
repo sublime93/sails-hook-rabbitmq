@@ -27,7 +27,7 @@ interface with rabbot
 _routes_ is a list of routes and topics to watch. Action attribute is the path
 to the action controller. 
 
-_controllerDir_ attribute allows custom controller directory. Default is _app/controllers-mq_
+_controllerDir_ attribute allows custom controller directory. Default is _api/controllers-mq_
  
 
 ``` JSON
@@ -67,3 +67,30 @@ module.exports.rabbitmq = {
 };
  
 ```        
+
+Publishing
+---------
+
+``` javascript
+MQ.publish('topic-example-x', {
+        type: 'type',
+        routingKey: 'key',
+        body: {
+          message: 'Message'
+        }
+      }).then( () => {
+        console.log('published message');
+      });
+```
+
+Controller Example
+------------------
+
+``` javascript
+exports.default = {
+  fn: async function (message) {
+    console.log('test', message.body.message);
+  }
+};
+
+```
