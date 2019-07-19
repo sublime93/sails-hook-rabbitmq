@@ -12,7 +12,7 @@ action successfully ends ``` msg.ack(); ``` is called.
 Install
 -------
 
-    npm install node-red-contrib-better-sftp
+    npm install git+http://BOESGIT01/n-tech/sails-hook-rabbitmq.git
     
 Configuration
 -------------
