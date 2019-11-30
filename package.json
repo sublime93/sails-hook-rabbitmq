@@ -13,11 +13,11 @@
     "dependencies",
     "rabbit mq"
   ],
-  "author": "N-Tech Consulting <itsupport@ntech.io>",
+  "author": "Jordan Vohwinkel <jvohwinkel@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikermcneil/sails-hook-apianalytics.git"
+    "url": "https://github.com/sublime93/sails-hook-rabbitmq"
   },
   "sails": {
     "isHook": true
