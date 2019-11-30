@@ -1,5 +1,5 @@
 {
-  "name": "sails-hook-rabbitmq",
+  "name": "sails-hook-better-rabbitmq",
   "description": "Hook integrating sails and Rabbit MQ.",
   "main": "lib/index.js",
   "version": "1.0.0",
