@@ -41,7 +41,7 @@ _waitForServerToAcceptMessages_ (true) Should we wait for the sever to accept a 
 function call. If true and the server is offline we the function will not return until the server is back online. 
  
 
-``` JSON
+``` javascript
 module.exports.rabbitmq = {
   customModelGlobal: "MQ",
   controllerDir: '/api/controllers-mq',
